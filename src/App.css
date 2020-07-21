@@ -29,31 +29,23 @@
   padding-top:20px;
   padding-bottom:20px;
   background-image: linear-gradient(to right,#10171d 50%,#1d2c3a 100%);
-  /* background-color:palevioletred;webkit-linear-gradient(to bottom,palevioletred 50%,purple 100%); */
 }
 .text{
   position: relative;
   top:200px;
-  /* background-color: rgb(161, 82, 109); */
   color:white;
   align-items: center;
 }
 .button{
   position: relative;
   top:200px;
-  /* background-color: rgb(161, 82, 109); */
   background-color:#1d2c3a ;
   color:white;
   align-items: center;
   text-align:left;
 
 }
-/* .button{
-  color:white;
-  background-color:rgb(167, 79, 108);
-  position:relative;
-  top:201px;
-} */
+
 .margin{
   margin-bottom:0px;
   text-align: left;
@@ -65,11 +57,7 @@
   top:200px;
   align-items: center;
   text-align:left;
- 
-  /* margin-bottom:0px;
-  text-align: left;
-  color:white;
-  background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) */
+
 }
 .App-logo {
   height: 40vmin;
@@ -80,9 +68,7 @@
   margin-top:-60px;
   width: 100%;
   height: 60vmin;
-  /* position: relative;
-  height: 60vmin;
-  width:100%; */
+
 } 
 .back{
   margin-top:-5px;
@@ -93,11 +79,6 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;  */
+
 }
 
