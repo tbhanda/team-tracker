@@ -60,10 +60,6 @@ function App() {
           }
           console.log("post ", todoItems);
           localStorage.setItem(TODO_ITEMS_KEY, JSON.stringify(todoItems));
-        // return {
-        //   item,
-        //   checked:item.checked
-        // };
         window.location.reload();
   };
      
@@ -86,10 +82,6 @@ function App() {
     setTodoItems([...todoItems, createTodoItem(newTodoName)]);
   };
 
-  // return {
-  //   item,
-  //   checked:item.checked
-  // };
   return (
 
     <div className="App">
