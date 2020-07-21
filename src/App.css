@@ -1,38 +1,103 @@
 .App {
   text-align: center;
+  
 }
+.recommended{
+  position: absolute;
+  top:57px;
+  color:white;
+  align-items: left;
+  text-align: left;
+  padding:20px;
+  margin-left:20px;
+  background-color: rgba(7, 19, 44, 0.507);
+  overflow:auto;
+  height:300px;
+}
+.deleteButton{
+  position: absolute;
+  top:495px;
+  left:89%;
+  text-align:right;
+  align-items: right;
+  background-color:#10171d ;
+  color:white;
+}
+.textColor{
+  color: white;
+  font-size:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-image: linear-gradient(to right,#10171d 50%,#1d2c3a 100%);
+  /* background-color:palevioletred;webkit-linear-gradient(to bottom,palevioletred 50%,purple 100%); */
+}
+.text{
+  position: relative;
+  top:200px;
+  /* background-color: rgb(161, 82, 109); */
+  color:white;
+  align-items: center;
+}
+.button{
+  position: relative;
+  top:200px;
+  /* background-color: rgb(161, 82, 109); */
+  background-color:#1d2c3a ;
+  color:white;
+  align-items: center;
+  text-align:left;
 
+}
+/* .button{
+  color:white;
+  background-color:rgb(167, 79, 108);
+  position:relative;
+  top:201px;
+} */
+.margin{
+  margin-bottom:0px;
+  text-align: left;
+  color:white;
+  background-image: linear-gradient(to bottom,#10171d 50%,#1d2c3a 100%)
+}
+.inputText{
+  position: relative;
+  top:200px;
+  align-items: center;
+  text-align:left;
+ 
+  /* margin-bottom:0px;
+  text-align: left;
+  color:white;
+  background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.stage{
+  margin-top:-60px;
+  width: 100%;
+  height: 60vmin;
+  /* position: relative;
+  height: 60vmin;
+  width:100%; */
+} 
+.back{
+  margin-top:-5px;
+  width: 100%;
+  height:30%;
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;  */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
